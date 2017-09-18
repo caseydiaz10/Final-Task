@@ -14,6 +14,7 @@
 		D430DFE51F69A24A007B772D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D430DFE31F69A24A007B772D /* Main.storyboard */; };
 		D430DFE71F69A24A007B772D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D430DFE61F69A24A007B772D /* Assets.xcassets */; };
 		D430DFEA1F69A24A007B772D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D430DFE81F69A24A007B772D /* LaunchScreen.storyboard */; };
+		D430DFF21F69A522007B772D /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D430DFF11F69A522007B772D /* NewTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D430DFE61F69A24A007B772D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D430DFE91F69A24A007B772D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D430DFEB1F69A24A007B772D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D430DFF11F69A522007B772D /* NewTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				D430DFE81F69A24A007B772D /* LaunchScreen.storyboard */,
 				D430DFEB1F69A24A007B772D /* Info.plist */,
 				D430DFDC1F69A24A007B772D /* Final_Task.xcdatamodeld */,
+				D430DFF11F69A522007B772D /* NewTaskViewController.swift */,
 			);
 			path = "Final Task";
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D430DFDB1F69A24A007B772D /* AppDelegate.swift in Sources */,
+				D430DFF21F69A522007B772D /* NewTaskViewController.swift in Sources */,
 				D430DFDE1F69A24A007B772D /* Final_Task.xcdatamodeld in Sources */,
 				D430DFE01F69A24A007B772D /* MasterViewController.swift in Sources */,
 				D430DFE21F69A24A007B772D /* DetailViewController.swift in Sources */,
